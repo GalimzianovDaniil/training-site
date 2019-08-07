@@ -1,0 +1,58 @@
+body
+ font-family: "Open Sans"
+ padding-top: 101px
+ background-color: #ffffff
+.bold
+ font-weight: bold
+.catalog
+ &-description
+  text-align: center
+  font-size: 18px
+  line-height: 24px
+ &-title
+  color: #6c1c02;
+  font:
+   size: 36px
+   weight: bold
+  margin-bottom: 54px
+ &-items
+  max-width: 1140px
+  margin: auto
+  &-wrap
+   display: inline-block
+   float: left
+   width: 33.33%
+ &-item
+  height: 450px
+  width: 271px
+  margin: auto
+  padding: 44px 0px 36px 0px
+  box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15)
+  text-align: center
+  position: relative
+  margin-top: 50px
+  &-img
+   height: 337px
+  &-subtitle
+   color: #393939
+   font-size: 16px
+   margin: auto
+   &-wrap
+    width: 100%
+    margin: auto
+    position: absolute
+  &-title
+   font-size: 16px
+   font-weight: 400
+   margin-top: 29px
+  &-price
+   font-size: 18px
+   margin-top: 33px
+.clearfix
+ clear: both
+@media (max-width: 768px)
+ .catalog-items-wrap
+  width: 50%
+@media (max-width: 425px)
+ .catalog-items-wrap
+  width: 100%
